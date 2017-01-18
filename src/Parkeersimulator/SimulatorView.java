@@ -10,6 +10,7 @@ public class SimulatorView extends JFrame {
     private int numberOfPlaces;
     private int numberOfOpenSpots;
     private Car[][][] cars;
+    private int car;
 
     public SimulatorView(int numberOfFloors, int numberOfRows, int numberOfPlaces) {
         this.numberOfFloors = numberOfFloors;
